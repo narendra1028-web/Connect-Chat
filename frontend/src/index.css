@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #f2f4fa;
+  color: #292d40;
+  font-family: Inter, Arial, sans-serif;
+}
+
+button,
+input {
+  font-family: inherit;
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (max-width: 700px) {
+  body {
+    background: white;
+  }
+}
